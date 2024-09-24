@@ -1,208 +1,1169 @@
-[15:09:34] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:09:37] [ServerMain/INFO]: Loaded 7 recipes
-[15:09:38] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[15:09:38] [Server thread/INFO]: Loading properties
-[15:09:38] [Server thread/INFO]: This server is running CraftBukkit version 3919-Spigot-dba3cdc-e42510b (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
-[15:09:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:09:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:09:39] [Server thread/INFO]: Debug logging is disabled
-[15:09:39] [Server thread/INFO]: Default game type: SURVIVAL
-[15:09:39] [Server thread/INFO]: Generating keypair
-[15:09:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:09:39] [Server thread/INFO]: Using epoll channel type
-[15:09:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
-[15:09:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[15:09:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:09:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
-[15:09:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:09:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:09:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:09:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:09:41] [Server thread/INFO]: Preparing level "world"
-[15:09:41] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:09:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:41] [Server thread/INFO]: View Distance: 10
-[15:09:41] [Server thread/INFO]: Simulation Distance: 10
-[15:09:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:41] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:41] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:42] [Server thread/INFO]: View Distance: 10
-[15:09:42] [Server thread/INFO]: Simulation Distance: 10
-[15:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:42] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:42] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:09:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:47] [Server thread/INFO]: View Distance: 10
-[15:09:47] [Server thread/INFO]: Simulation Distance: 10
-[15:09:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:47] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:47] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:57] [Server thread/INFO]: Time elapsed: 9539 ms
-[15:09:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Server thread/INFO]: Time elapsed: 4302 ms
-[15:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[15:10:05] [Server thread/INFO]: Time elapsed: 4088 ms
-[15:10:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[15:10:05] [Server thread/WARN]: [ViaVersion] Couldn't find reflection methods/fields to access Channel from player.
-Login race condition fixer will be disabled.
- Some plugins that use ViaAPI on join event may work incorrectly.
-java.lang.NoSuchFieldException: NetworkManager
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.findField(JoinListener.java:80) ~[?:?]
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.<clinit>(JoinListener.java:50) ~[?:?]
-	at com.viaversion.viaversion.ViaVersionPlugin.onEnable(ViaVersionPlugin.java:109) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:548) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:462) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:577) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:400) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:10:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[15:10:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
-[15:10:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:10:05] [Server thread/INFO]: Done (24.123s)! For help, type "help"
-[15:10:05] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[15:12:42] [User Authenticator #1/INFO]: UUID of player subhamoyGhosh is e08bc1be-f2c5-38bd-949f-fb8b9dd1263a
-[15:12:43] [Server thread/INFO]: subhamoyGhosh joined the game
-[15:12:43] [Server thread/INFO]: subhamoyGhosh[/[0:0:0:0:0:0:0:1%0]:51252] logged in with entity id 141 at ([world]17.5, 83.0, 18.5)
-[15:13:10] [Server thread/INFO]: Made subhamoyGhosh a server operator
-[15:13:20] [Server thread/INFO]: subhamoyGhosh issued server command: /gamemode creative
-[15:13:20] [Server thread/INFO]: [subhamoyGhosh: Set own game mode to Creative Mode]
-[15:14:12] [Server thread/WARN]: subhamoyGhosh moved too quickly! -12.018311805504027,-5.056851103310194,-6.257776375549014
-[15:14:58] [Server thread/INFO]: subhamoyGhosh lost connection: Disconnected
-[15:14:58] [Server thread/INFO]: subhamoyGhosh left the game
+[23Sep2024 09:02:16.088] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Sep2024 09:02:16.091] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Amazon.com Inc.; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Sep2024 09:02:17.108] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Sep2024 09:02:17.174] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft-own-cloud-host-github/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Sep2024 09:02:17.806] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-own-cloud-host-github/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[23Sep2024 09:02:17.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-own-cloud-host-github/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Sep2024 09:02:17.808] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-own-cloud-host-github/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Sep2024 09:02:17.809] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-own-cloud-host-github/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Sep2024 09:02:18.194] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[23Sep2024 09:02:18.195] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[23Sep2024 09:02:22.008] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Sep2024 09:02:22.464] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Sep2024 09:02:22.502] [main/WARN] [mixin/]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.504] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.544] [main/WARN] [mixin/]: Reference map 'ritchiesprojectilelib-forge-refmap.json' for ritchiesprojectilelib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.678] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.13.0+mc1.20.1: 74 options available, 0 override(s) found
+[23Sep2024 09:02:22.680] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[23Sep2024 09:02:22.694] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[23Sep2024 09:02:22.853] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 188 options available, 0 override(s) found
+[23Sep2024 09:02:22.874] [main/WARN] [mixin/]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.885] [main/WARN] [mixin/]: Reference map 'createmoredrillheads.refmap.json' for createmoredrillheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.897] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.926] [main/WARN] [mixin/]: Reference map 'CreateHaven.refmap.json' for create_haven.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.941] [main/WARN] [mixin/]: Reference map 'create_trains_on_trains.refmap.json' for mixins.create_trains_on_trains.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.954] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for design_decor.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.966] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.981] [main/WARN] [mixin/]: Reference map 'gbd.refmap.json' for gbd.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:22.994] [main/WARN] [mixin/]: Reference map 'createappliedkinetics.refmap.json' for createappliedkinetics.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:23.032] [main/WARN] [mixin/]: Reference map 'createmechanicalextruder.refmap.json' for create_mechanical_extruder.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:23.041] [main/WARN] [mixin/]: Reference map 'create_mechanical_spawner.refmap.json' for create_mechanical_spawner.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Sep2024 09:02:24.365] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:24.392] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:24.798] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
+[23Sep2024 09:02:24.799] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin
+[23Sep2024 09:02:24.804] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
+[23Sep2024 09:02:24.804] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin
+[23Sep2024 09:02:24.808] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
+[23Sep2024 09:02:24.808] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin
+[23Sep2024 09:02:24.867] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[23Sep2024 09:02:24.867] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[23Sep2024 09:02:24.871] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[23Sep2024 09:02:24.871] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[23Sep2024 09:02:24.889] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[23Sep2024 09:02:24.919] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
+[23Sep2024 09:02:24.920] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[23Sep2024 09:02:24.921] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
+[23Sep2024 09:02:25.383] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[23Sep2024 09:02:25.385] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[23Sep2024 09:02:25.385] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[23Sep2024 09:02:25.472] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/integration/MoreRedIntegration (java.lang.ClassNotFoundException: dan200.computercraft.shared.integration.MoreRedIntegration)
+[23Sep2024 09:02:25.473] [main/WARN] [mixin/]: @Mixin target dan200.computercraft.shared.integration.MoreRedIntegration was not found create_central_kitchen.mixins.json:common.computercraft.MoreRedIntegrationMixin
+[23Sep2024 09:02:25.536] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
+[23Sep2024 09:02:25.537] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
+[23Sep2024 09:02:25.539] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[23Sep2024 09:02:25.540] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityAccessor
+[23Sep2024 09:02:25.542] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[23Sep2024 09:02:25.542] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
+[23Sep2024 09:02:25.545] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[23Sep2024 09:02:25.545] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[23Sep2024 09:02:25.815] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[23Sep2024 09:02:26.385] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23Sep2024 09:02:26.654] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (14.64 s after launch)
+[23Sep2024 09:02:26.881] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:26.881] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:28.340] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1682 milliseconds
+[23Sep2024 09:02:28.992] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:28.992] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Sep2024 09:02:32.325] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[23Sep2024 09:02:32.423] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[23Sep2024 09:02:33.447] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.448] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.449] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.449] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.450] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.450] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.451] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[23Sep2024 09:02:33.466] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.3.3 has initialized, ready to support your Create add-ons!
+[23Sep2024 09:02:33.654] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[23Sep2024 09:02:33.812] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.2 initializing
+[23Sep2024 09:02:33.887] [modloading-worker-0/INFO] [Create: Interiors/]: Registering blocks!
+[23Sep2024 09:02:34.087] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[23Sep2024 09:02:34.088] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.7+mc1.20.1.jar%23311!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.7+mc1.20.1.jar%23311!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.7+mc1.20.1.jar%23311!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.0.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.0.jar%23370!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[23Sep2024 09:02:34.351] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23Sep2024 09:02:35.140] [modloading-worker-0/INFO] [railways/]: Registered bogey styles from railways
+[23Sep2024 09:02:35.296] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23Sep2024 09:02:35.296] [modloading-worker-0/INFO] [railways/]: Registering data fixers
+[23Sep2024 09:02:35.323] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[23Sep2024 09:02:35.449] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[23Sep2024 09:02:35.451] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[23Sep2024 09:02:35.653] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id estrogen:dash
+[23Sep2024 09:02:35.655] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id estrogen:dashparticles
+[23Sep2024 09:02:35.661] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[23Sep2024 09:02:35.693] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[23Sep2024 09:02:35.696] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[23Sep2024 09:02:35.702] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[23Sep2024 09:02:35.704] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[23Sep2024 09:02:35.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[23Sep2024 09:02:35.756] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[23Sep2024 09:02:35.758] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[23Sep2024 09:02:35.770] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[23Sep2024 09:02:35.782] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[23Sep2024 09:02:35.792] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[23Sep2024 09:02:35.798] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[23Sep2024 09:02:35.800] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source createcasing
+[23Sep2024 09:02:35.802] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source create_mechanical_extruder
+[23Sep2024 09:02:35.804] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source create_mechanical_spawner
+[23Sep2024 09:02:35.807] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source createsifter
+[23Sep2024 09:02:35.886] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source createoreexcavation
+[23Sep2024 09:02:35.888] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[23Sep2024 09:02:35.973] [modloading-worker-0/INFO] [KubeJS/]: Done in 202.9 ms
+[23Sep2024 09:02:36.209] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[23Sep2024 09:02:36.212] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[23Sep2024 09:02:36.221] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[23Sep2024 09:02:36.342] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.133 s
+[23Sep2024 09:02:36.491] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 1 milliseconds
+[23Sep2024 09:02:36.613] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[23Sep2024 09:02:36.711] [modloading-worker-0/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[23Sep2024 09:02:36.831] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[23Sep2024 09:02:36.835] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.079 s
+[23Sep2024 09:02:36.841] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.494 s with 0 errors and 0 warnings
+[23Sep2024 09:02:37.013] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[23Sep2024 09:02:37.038] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[23Sep2024 09:02:37.080] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[23Sep2024 09:02:37.115] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[23Sep2024 09:02:37.115] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[23Sep2024 09:02:37.120] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[23Sep2024 09:02:37.124] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[23Sep2024 09:02:37.127] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[23Sep2024 09:02:37.138] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[23Sep2024 09:02:37.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[23Sep2024 09:02:37.208] [modloading-worker-0/INFO] [railways/]: Registering tracks for Hex Casting
+[23Sep2024 09:02:37.220] [modloading-worker-0/INFO] [railways/]: Registering tracks for Oh The Biomes You'll Go
+[23Sep2024 09:02:37.221] [modloading-worker-0/INFO] [railways/]: Registering tracks for Blue Skies
+[23Sep2024 09:02:37.222] [modloading-worker-0/INFO] [railways/]: Registering tracks for Twilight Forest
+[23Sep2024 09:02:37.224] [modloading-worker-0/INFO] [railways/]: Registering tracks for Biomes O' Plenty
+[23Sep2024 09:02:37.356] [modloading-worker-0/INFO] [Shut Up GL Error/]: Shut up those pesky GL key errors
+[23Sep2024 09:02:38.831] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[23Sep2024 09:02:39.046] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
+[23Sep2024 09:02:39.049] [modloading-worker-0/INFO] [creategoggles/]: cgblocks
+[23Sep2024 09:02:39.051] [modloading-worker-0/INFO] [creategoggles/]: cgitems
+[23Sep2024 09:02:39.082] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
+[23Sep2024 09:02:39.086] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[23Sep2024 09:02:39.088] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[23Sep2024 09:02:39.089] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[23Sep2024 09:02:39.104] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
+[23Sep2024 09:02:39.109] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
+[23Sep2024 09:02:39.207] [modloading-worker-0/INFO] [com.TheoCreates.CreateCompression.CreateCompression/]: Registering mod: createcompression
+[23Sep2024 09:02:42.875] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.876] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.876] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.876] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.876] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.876] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.877] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.877] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.877] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.877] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.877] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.878] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.878] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.878] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:42.878] [main/INFO] [Create Deco/]: placard tooltip was null
+[23Sep2024 09:02:43.870] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.gadgets.explosives.napalm.NapalmBombEntity
+[23Sep2024 09:02:44.750] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[23Sep2024 09:02:44.834] [main/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-common.toml
+[23Sep2024 09:02:44.991] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[23Sep2024 09:02:45.030] [modloading-worker-0/INFO] [ch.capez.dsbg.Dsbg/]: Loading DSBG...
+[23Sep2024 09:02:45.107] [modloading-worker-0/INFO] [net.pttheta.loveandwar.LoveAndWarMod/]: HELLO FROM COMMON SETUP
+[23Sep2024 09:02:45.155] [modloading-worker-0/INFO] [creategoggles/]: Create Goggles Setup
+[23Sep2024 09:02:45.155] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Create Ore Excavation starting
+[23Sep2024 09:02:45.160] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Initilaized Network Handler
+[23Sep2024 09:02:45.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[23Sep2024 09:02:45.182] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[23Sep2024 09:02:45.186] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[23Sep2024 09:02:45.186] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[23Sep2024 09:02:45.186] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[23Sep2024 09:02:45.187] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[23Sep2024 09:02:45.187] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[23Sep2024 09:02:45.187] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[23Sep2024 09:02:45.187] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[23Sep2024 09:02:45.188] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[23Sep2024 09:02:45.188] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[23Sep2024 09:02:45.189] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[23Sep2024 09:02:46.152] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.1.9 Target: 20.2.13
+[23Sep2024 09:02:46.153] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[23Sep2024 09:02:46.155] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23Sep2024 09:02:46.156] [modloading-worker-0/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23Sep2024 09:02:46.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 0.7.2-mc1.20.1 Target: 0.9.1-mc1.20.1
+[23Sep2024 09:02:46.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[23Sep2024 09:02:46.179] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[23Sep2024 09:02:46.179] [main/INFO] [xaero.common.MinimapLogs/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[23Sep2024 09:02:46.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: OUTDATED Current: 2.1.1 Target: 3.0.0
+[23Sep2024 09:02:46.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[23Sep2024 09:02:46.437] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.0.jar%23370!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.0.jar%23370!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[23Sep2024 09:02:46.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[23Sep2024 09:02:46.483] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[23Sep2024 09:02:46.485] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded KubeJS integration
+[23Sep2024 09:02:46.492] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[23Sep2024 09:02:46.493] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[23Sep2024 09:02:46.496] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Sep2024 09:02:46.504] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Sep2024 09:02:46.507] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Sep2024 09:02:46.509] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[23Sep2024 09:02:46.522] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.oierbravo.create_mechanical_spawner.compat.jade.MechanicalSpawnerPlugin
+[23Sep2024 09:02:46.523] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[23Sep2024 09:02:46.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
+[23Sep2024 09:02:46.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[23Sep2024 09:02:46.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA_OUTDATED Current: 14.0.36 Target: 14.0.43
+[23Sep2024 09:02:46.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Sep2024 09:02:47.346] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[23Sep2024 09:02:47.347] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[23Sep2024 09:02:47.370] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Sep2024 09:02:47.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA_OUTDATED Current: 17.0.14 Target: 17.1.18
+[23Sep2024 09:02:47.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createtweaker] Starting version check at https://updates.blamejared.com/get?n=createtweaker&gv=1.20.1
+[23Sep2024 09:02:47.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createtweaker] Found status: BETA_OUTDATED Current: 4.0.8 Target: 4.0.12
+[23Sep2024 09:02:47.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[23Sep2024 09:02:47.992] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-own-cloud-host-github/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23369!/assets/.mcassetsroot' uses unexpected schema
+[23Sep2024 09:02:47.992] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-own-cloud-host-github/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23369!/data/.mcassetsroot' uses unexpected schema
+[23Sep2024 09:02:48.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[23Sep2024 09:02:48.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createcasing] Starting version check at https://api.modrinth.com/updates/create-encased/forge_updates.json
+[23Sep2024 09:02:48.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createcasing] Found status: OUTDATED Current: 1.20.1-1.6.0 Target: 1.20.1-1.6.1-fix3
+[23Sep2024 09:02:48.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createsifter] Starting version check at https://api.modrinth.com/updates/create-sifting/forge_updates.json
+[23Sep2024 09:02:48.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createsifter] Found status: OUTDATED Current: 1.20.1-1.8.1.e-22 Target: 1.20.1-1.8.2.h-48
+[23Sep2024 09:02:48.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Starting version check at https://raw.githubusercontent.com/tom5454/Create-Ore-Excavation/main/version-check.json
+[23Sep2024 09:02:48.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Found status: BETA_OUTDATED Current: 1.4.2 Target: 1.5.2
+[23Sep2024 09:02:48.862] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Starting version check at https://raw.githubusercontent.com/hlysine/create_power_loader/main/update.json
+[23Sep2024 09:02:48.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Found status: OUTDATED Current: 1.4.0-mc1.20.1 Target: 1.5.0-mc1.20.1
+[23Sep2024 09:02:48.975] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[23Sep2024 09:02:48.989] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[23Sep2024 09:02:48.990] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.001 s
+[23Sep2024 09:02:48.990] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
+[23Sep2024 09:02:48.991] [main/INFO] [KubeJS Server/]: Scripts loaded
+[23Sep2024 09:02:50.577] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[23Sep2024 09:02:50.846] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag createchromaticreturn:durasteel_sand as it is missing following references: create:sand_paper (from createchromaticreturn-1.5.0.jar), 
+	createaddition:red_sand_paper (from createchromaticreturn-1.5.0.jar)
+[23Sep2024 09:02:50.848] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag createchromaticreturn:sandpaper as it is missing following references: create:red_sand_paper (from createchromaticreturn-1.5.0.jar), 
+	create:sand_paper (from createchromaticreturn-1.5.0.jar)
+[23Sep2024 09:02:50.858] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag createchromaticreturn:industrium_ei as it is missing following references: createaddition:printer (from createchromaticreturn-1.5.0.jar)
+[23Sep2024 09:02:50.883] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Not a JSON object: null
+[23Sep2024 09:02:50.884] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list flansmod:gun_createloveandwar from flansmod:tags/items/gun_createloveandwar.json in data pack createloveandwar-0.1-1.20.1.jar
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:114) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[23Sep2024 09:02:50.889] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:fuel as it is missing following references: createloveandwar:gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_gasoline (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:50.972] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:creeper_drop_music_discs as it is missing following references: createloveandwar:music_disc_midnight (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:50.984] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:music_discs as it is missing following references: #minecraft:creeper_drop_music_discs (from vanilla), 
+	createloveandwar:music_disc_midnight (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:50.985] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag creategoggles:modifier/goggle_incompatible as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.20.1-0.5.5.f-[FORGE].jar)
+[23Sep2024 09:02:50.987] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag flansmod:gun as it is missing following references: createloveandwar:martini_henry (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:50.988] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trimmable_armor as it is missing following references: createloveandwar:dimensional_helmet (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:dimensional_chestplate (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:50.988] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:charm as it is missing following references: createchromaticreturn:durasteel_charm (from createchromaticreturn-1.5.0.jar)
+[23Sep2024 09:02:50.994] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create:blaze_burner_fuel/regular as it is missing following references: createloveandwar:diesel (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_diesel (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:gasoline_bucket (from createloveandwar-0.1-1.20.1.jar)
+[23Sep2024 09:02:51.004] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trim_materialss as it is missing following references: creategoggles:goggle_material (from creategoggles-1.20.1-0.5.5.f-[FORGE].jar)
+[23Sep2024 09:02:51.152] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create_more_automation:blank_recipe from create_more_automation:recipes/blank_recipe.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	... 13 more
+[23Sep2024 09:02:51.216] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create:compacting/rock_candys/blocks/chiseled_red_rock from create:recipes/compacting/rock_candys/blocks/chiseled_red_rock.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	... 13 more
+[23Sep2024 09:02:51.495] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createloveandwar:gun_fabrication/alof from createloveandwar:recipes/gun_fabrication/alof.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 33 column 4 path $.ingredients[4]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 33 column 4 path $.ingredients[4]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1463) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:569) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	... 13 more
+[23Sep2024 09:02:52.240] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_duraplas recipe (createloveandwar:stamping/barrel_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.247] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/botanist_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:botanist_workbench'
+[23Sep2024 09:02:52.255] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:durasteel_recipe) has more item inputs (25) than supported (9).
+[23Sep2024 09:02:52.256] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_iron recipe (createloveandwar:stamping/revolver_action_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.256] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_compat as it's serializer returned null
+[23Sep2024 09:02:52.257] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:silkstrum_book_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.261] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:multiplite_recipe) has more item inputs (32) than supported (9).
+[23Sep2024 09:02:52.276] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_sturdy recipe (createloveandwar:stamping/stock_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.281] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.282] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_tungsten recipe (createloveandwar:stamping/barrel_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.290] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/glassblower_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:glassblower'
+[23Sep2024 09:02:52.291] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:polonium_nugget_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:dust_fluorite'
+[23Sep2024 09:02:52.292] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.300] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:gold_fortunite: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_gold_ore'
+[23Sep2024 09:02:52.302] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_compat as it's serializer returned null
+[23Sep2024 09:02:52.304] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_wood) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.321] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_polymer recipe (createloveandwar:stamping/upper_receiver_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.328] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_drinks:rotation_portable: com.google.gson.JsonSyntaxException: Unknown item 'create_drinks:portable_mixer'
+[23Sep2024 09:02:52.329] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:plutonium_pellet_recipe) has more item inputs (32) than supported (9).
+[23Sep2024 09:02:52.332] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/grenade_casing recipe (createloveandwar:drawing/grenade_casing) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.333] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_resin recipe (createloveandwar:stamping/revolver_action_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.333] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:raboutan_sail_c_raft: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exoticism:ramboutan_planks'
+[23Sep2024 09:02:52.334] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/1x_to_1x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_1x'
+[23Sep2024 09:02:52.336] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.337] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.340] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_compat as it's serializer returned null
+[23Sep2024 09:02:52.340] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_polymer recipe (createloveandwar:stamping/stock_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.359] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_netherite recipe (createloveandwar:stamping/stock_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.362] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/7x_to_7x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_7x'
+[23Sep2024 09:02:52.362] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_tungsten recipe (createloveandwar:stamping/upper_receiver_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.363] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_brass recipe (createloveandwar:stamping/bolt_action_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.382] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.399] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:netherrack_to_magma: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:blasting'
+[23Sep2024 09:02:52.404] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_brass recipe (createloveandwar:stamping/handguard_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.407] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_iron recipe (createloveandwar:stamping/grip_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.413] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_tungsten recipe (createloveandwar:stamping/grip_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.414] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board_compat as it's serializer returned null
+[23Sep2024 09:02:52.414] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_resin recipe (createloveandwar:stamping/grip_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.415] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:chorus_sail_craft: com.google.gson.JsonSyntaxException: Unknown item 'unusualend:chorus_nest_planks'
+[23Sep2024 09:02:52.415] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.416] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_duraplas recipe (createloveandwar:stamping/upper_receiver_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.416] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/3x_to_3x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_3x'
+[23Sep2024 09:02:52.417] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/5x_to_5x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_5x'
+[23Sep2024 09:02:52.421] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_tungsten recipe (createloveandwar:stamping/stock_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.422] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_brass recipe (createloveandwar:stamping/upper_receiver_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.422] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.424] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:durasteel_book_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.427] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_tungsten recipe (createloveandwar:stamping/lower_receiver_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.431] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs_compat as it's serializer returned null
+[23Sep2024 09:02:52.432] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:shadow_mechanism_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.434] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.435] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.437] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_netherite recipe (createloveandwar:stamping/revolver_action_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.439] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/8x_to_8x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_8x'
+[23Sep2024 09:02:52.440] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_polymer recipe (createloveandwar:stamping/grip_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.441] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:iron_doubling: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_iron_ore'
+[23Sep2024 09:02:52.449] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_sturdy recipe (createloveandwar:stamping/handguard_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.452] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:black_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[23Sep2024 09:02:52.455] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_duraplas recipe (createloveandwar:stamping/lower_receiver_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.456] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/carpenters_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:carpenters_table'
+[23Sep2024 09:02:52.463] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/2x_to_2x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_2x'
+[23Sep2024 09:02:52.464] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_iron recipe (createloveandwar:stamping/upper_receiver_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.466] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:shulker_recipe) has more item inputs (16) than supported (9).
+[23Sep2024 09:02:52.466] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:refined_radiance_recipe) has more item inputs (16) than supported (9).
+[23Sep2024 09:02:52.467] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.469] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall_compat as it's serializer returned null
+[23Sep2024 09:02:52.473] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_brass recipe (createloveandwar:stamping/stock_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.476] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createdieselgenerators:smithing/chemical_sprayer_lighter: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[23Sep2024 09:02:52.480] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_sturdy recipe (createloveandwar:stamping/barrel_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.481] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:white_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[23Sep2024 09:02:52.481] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_sturdy recipe (createloveandwar:stamping/revolver_action_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.483] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:mangrove_sail_craft_backport: com.google.gson.JsonSyntaxException: Unknown item 'wildbackport:mangrove_planks'
+[23Sep2024 09:02:52.484] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:crafting/copper_headlight: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:prismarine_crystal'
+[23Sep2024 09:02:52.487] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_resin recipe (createloveandwar:stamping/barrel_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.489] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/dripstone/1x_to_9x_clay_ball: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_dripstone_1x'
+[23Sep2024 09:02:52.490] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:shadow_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.491] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:cyber_plating_recipe) has more item inputs (13) than supported (9).
+[23Sep2024 09:02:52.491] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:durasteel_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.492] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_sturdy recipe (createloveandwar:stamping/grip_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.492] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/6x_to_6x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_6x'
+[23Sep2024 09:02:52.492] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.493] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (create_drinks:mix_to_rotation) has more item outputs (16) than supported (4).
+[23Sep2024 09:02:52.496] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.498] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_resin recipe (createloveandwar:stamping/upper_receiver_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.498] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_wood) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.498] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_duraplas recipe (createloveandwar:stamping/grip_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.501] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/tinkering_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:tinkering_table'
+[23Sep2024 09:02:52.504] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createaddition_plus:crafting/magnet: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'lychee:lightning_channeling'
+[23Sep2024 09:02:52.508] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/4x_to_4x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_4x'
+[23Sep2024 09:02:52.508] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:shadow_steel_recipe) has more item inputs (16) than supported (9).
+[23Sep2024 09:02:52.509] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:copper_fortunite: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_copper_ore'
+[23Sep2024 09:02:52.510] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_resin recipe (createloveandwar:stamping/handguard_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.510] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:schematic_chair: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[23Sep2024 09:02:52.516] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:multiplite_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.516] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_log) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.519] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:industrium_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.519] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.520] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:filling/chocolate_bagutte: com.google.gson.JsonSyntaxException: Unknown item 'createsweetsandtreets:bagutte'
+[23Sep2024 09:02:52.525] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_log) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.529] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:silkstrum_recipe) has more item inputs (33) than supported (9).
+[23Sep2024 09:02:52.533] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/9x_to_9x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_9x'
+[23Sep2024 09:02:52.534] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.537] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[23Sep2024 09:02:52.537] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[23Sep2024 09:02:52.538] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.540] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/mason_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:mason_table'
+[23Sep2024 09:02:52.540] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_resin recipe (createloveandwar:stamping/bolt_action_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.542] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_iron recipe (createloveandwar:stamping/handguard_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.543] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:diamond_doubling) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.544] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_polymer recipe (createloveandwar:stamping/lower_receiver_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.544] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate_compat as it's serializer returned null
+[23Sep2024 09:02:52.549] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_log) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.550] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_duraplas recipe (createloveandwar:stamping/revolver_action_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.550] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:emerald_doubling) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.552] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.554] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:zinc_fortunite: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_zinc_ore'
+[23Sep2024 09:02:52.559] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/3x_to_3x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_3x'
+[23Sep2024 09:02:52.560] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_tungsten recipe (createloveandwar:stamping/revolver_action_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.568] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_brass recipe (createloveandwar:stamping/grip_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.569] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.569] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:emerald_fortunite) has more item inputs (18) than supported (9).
+[23Sep2024 09:02:52.569] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:fortunite_recipe) has more item inputs (33) than supported (9).
+[23Sep2024 09:02:52.571] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.571] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_brass recipe (createloveandwar:stamping/barrel_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.571] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/brass_cup recipe (createloveandwar:drawing/brass_cup) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.573] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_netherite recipe (createloveandwar:stamping/bolt_action_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.573] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:basic_induction_cell: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:basic_control_circuit'
+[23Sep2024 09:02:52.574] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:zinc_doubling: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_zinc_ore'
+[23Sep2024 09:02:52.582] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/1x_to_1x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_1x'
+[23Sep2024 09:02:52.594] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_tungsten recipe (createloveandwar:stamping/bolt_action_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.596] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.596] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_netherite recipe (createloveandwar:stamping/barrel_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.598] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_iron recipe (createloveandwar:stamping/lower_receiver_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.600] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/8x_to_8x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_8x'
+[23Sep2024 09:02:52.611] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/7x_to_7x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_7x'
+[23Sep2024 09:02:52.619] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_netherite recipe (createloveandwar:stamping/handguard_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.623] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[23Sep2024 09:02:52.625] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/rifle_casing recipe (createloveandwar:drawing/rifle_casing) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.630] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_polymer recipe (createloveandwar:stamping/bolt_action_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.630] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:shadow_essence_recipe) has more item inputs (32) than supported (9).
+[23Sep2024 09:02:52.631] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:copper_doubling: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_copper_ore'
+[23Sep2024 09:02:52.632] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:charm_cast_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.632] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_sturdy recipe (createloveandwar:stamping/upper_receiver_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.638] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_tungsten recipe (createloveandwar:stamping/handguard_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.638] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_resin recipe (createloveandwar:stamping/lower_receiver_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.639] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/dripstone/1x_to_9x_clay_ball: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_dripstone_1x'
+[23Sep2024 09:02:52.640] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_sturdy recipe (createloveandwar:stamping/lower_receiver_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.642] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:antimatter_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:pellet_polonium'
+[23Sep2024 09:02:52.644] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_polymer recipe (createloveandwar:stamping/barrel_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.644] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/5x_to_5x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_5x'
+[23Sep2024 09:02:52.645] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:jaboticaba_sail_craft: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exoticism:jaboticaba_planks'
+[23Sep2024 09:02:52.652] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_resin recipe (createloveandwar:stamping/stock_resin) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.653] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:ruby_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[23Sep2024 09:02:52.654] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.654] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_log) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.655] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.656] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_polymer recipe (createloveandwar:stamping/revolver_action_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.671] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_iron recipe (createloveandwar:stamping/barrel_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.676] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_sturdy recipe (createloveandwar:stamping/bolt_action_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.678] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/copper_cup recipe (createloveandwar:drawing/copper_cup) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.679] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:copper_scaffolding_craft: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[23Sep2024 09:02:52.680] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_polymer recipe (createloveandwar:stamping/handguard_polymer) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.683] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_compat as it's serializer returned null
+[23Sep2024 09:02:52.684] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_netherite recipe (createloveandwar:stamping/grip_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.687] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/loom_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:loom_table'
+[23Sep2024 09:02:52.693] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createbb:misc/smelt_zinc_dust: com.google.gson.JsonSyntaxException: Unknown item 'createbb:zinc_dust'
+[23Sep2024 09:02:52.694] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/6x_to_6x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_6x'
+[23Sep2024 09:02:52.695] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:gold_doubling: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_gold_ore'
+[23Sep2024 09:02:52.698] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_wood) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.701] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_netherite recipe (createloveandwar:stamping/lower_receiver_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.702] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:refined_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.705] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe storagedrawers:conversion_upgrade: com.google.gson.JsonSyntaxException: Unknown item 'storagedrawers:conversion_upgrade'
+[23Sep2024 09:02:52.706] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_brass recipe (createloveandwar:stamping/lower_receiver_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.707] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.711] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:plutonium_nugget_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:crystal_uranium'
+[23Sep2024 09:02:52.715] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createqol:item_application/alchemy_saw: com.google.gson.JsonSyntaxException: Unknown item 'chipped:alchemy_bench'
+[23Sep2024 09:02:52.715] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/pistol_casing recipe (createloveandwar:drawing/pistol_casing) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.715] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:iron_fortunite: com.google.gson.JsonSyntaxException: Unknown item 'create:crushed_iron_ore'
+[23Sep2024 09:02:52.715] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:polonium_pellet) has more item inputs (32) than supported (9).
+[23Sep2024 09:02:52.719] [main/WARN] [com.simibubi.create.Create/]: Your custom minecraft:createloveandwar recipe (createloveandwar:fractional_distillation/crude_oil) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.720] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:silkstrum_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.723] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_netherite recipe (createloveandwar:stamping/upper_receiver_netherite) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.723] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.724] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/9x_to_9x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_9x'
+[23Sep2024 09:02:52.724] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:freezing/powder_snow: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createsweetsandtreets:freezing'
+[23Sep2024 09:02:52.724] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.724] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:refined_mechanism_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.725] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.726] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) has more fluid inputs (1) than supported (0).
+[23Sep2024 09:02:52.727] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createchromaticreturn:basic_induction_provider: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:basic_control_circuit'
+[23Sep2024 09:02:52.728] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:bedrock_base_charm_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.729] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_duraplas recipe (createloveandwar:stamping/handguard_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.738] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.739] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.740] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.741] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam_compat as it's serializer returned null
+[23Sep2024 09:02:52.742] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/sandstone/2x_to_2x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_2x'
+[23Sep2024 09:02:52.743] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:diamond_fortunite) has more item inputs (18) than supported (9).
+[23Sep2024 09:02:52.745] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createchromaticreturn:refined_mixture_recipe) has more item inputs (16) than supported (9).
+[23Sep2024 09:02:52.747] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
+[23Sep2024 09:02:52.748] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_duraplas recipe (createloveandwar:stamping/stock_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.751] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/sandstone/4x_to_4x_sand: com.google.gson.JsonSyntaxException: Unknown item 'createcompression:compressed_sandstone_4x'
+[23Sep2024 09:02:52.751] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[23Sep2024 09:02:52.752] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_iron recipe (createloveandwar:stamping/stock_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.753] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_wood) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.754] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_log) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.755] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/artillery_casing recipe (createloveandwar:drawing/artillery_casing) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.759] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createbb:misc/smelt_copper_dust: com.google.gson.JsonSyntaxException: Unknown item 'createbb:copper_dust'
+[23Sep2024 09:02:52.760] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_iron recipe (createloveandwar:stamping/bolt_action_iron) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.761] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_duraplas recipe (createloveandwar:stamping/bolt_action_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.762] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_wood) has more item outputs (2) than supported (1).
+[23Sep2024 09:02:52.762] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_brass recipe (createloveandwar:stamping/revolver_action_brass) specified a duration. Durations have no impact on this type of recipe.
+[23Sep2024 09:02:52.767] [main/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (createchromaticreturn:industrium_book_recipe) has more item inputs (17) than supported (9).
+[23Sep2024 09:02:52.772] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 63 recipes
+[23Sep2024 09:02:52.775] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[23Sep2024 09:02:52.851] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement createloveandwar:recipes/misc/robot_dog_spawn_egg: Unknown item id 'createloveandwar:dimensional_rift'
+[23Sep2024 09:02:52.918] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_dd:flywheel: Failed to parse 'location' field
+[23Sep2024 09:02:52.994] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement createsweetsandtreets:brass_cookin: Expected item to be an item, was unknown string 'createsweetsandtreets:deleted_mod_element'
+[23Sep2024 09:02:53.029] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5708 advancements
+[23Sep2024 09:02:53.036] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[23Sep2024 09:02:53.082] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[23Sep2024 09:02:53.094] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[23Sep2024 09:02:53.096] [main/INFO] [rechiseled/]: Loaded 66 chiseling recipes
+[23Sep2024 09:02:53.132] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id garnished:raw_tenebrous_meat_from_chests - error: Not a JSON object: null
+[23Sep2024 09:02:53.132] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id garnished:lustrous_pearl_from_chests - error: Not a JSON object: null
+[23Sep2024 09:02:53.138] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[23Sep2024 09:02:54.040] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Sep2024 09:02:54.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Sep2024 09:02:54.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Sep2024 09:02:54.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Sep2024 09:02:54.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Sep2024 09:02:54.205] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Sep2024 09:02:54.333] [Server thread/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-server.toml
+[23Sep2024 09:02:54.337] [Netty Epoll Server IO #1/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[23Sep2024 09:02:54.544] [Server thread/INFO] [FTB Teams/]: loaded team data: 4 known players, 5 teams total
+[23Sep2024 09:02:54.661] [Server thread/INFO] [spark/]: Starting background profiler...
+[23Sep2024 09:02:55.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Sep2024 09:02:55.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Sep2024 09:02:55.515] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[23Sep2024 09:02:57.334] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Sep2024 09:02:57.334] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Sep2024 09:02:57.334] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Sep2024 09:02:57.335] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Sep2024 09:02:57.513] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Sep2024 09:02:57.959] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2447 ms
+[23Sep2024 09:02:57.960] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.650s)! For help, type "help"
+[23Sep2024 09:02:58.095] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Sep2024 09:02:58.096] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[23Sep2024 09:02:58.097] [Server thread/INFO] [net.pttheta.loveandwar.LoveAndWarMod/]: HELLO from server starting
+[23Sep2024 09:02:58.098] [Server thread/INFO] [com.mangomilk.design_decor.DesignDecor/]: :3
+[23Sep2024 09:02:58.117] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.TestPlots for plots
+[23Sep2024 09:02:58.120] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[23Sep2024 09:02:58.121] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[23Sep2024 09:02:58.130] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[23Sep2024 09:02:58.131] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[23Sep2024 09:02:58.131] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[23Sep2024 09:02:58.132] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[23Sep2024 09:02:58.133] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[23Sep2024 09:02:58.133] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[23Sep2024 09:02:58.134] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[23Sep2024 09:02:58.134] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[23Sep2024 09:02:58.134] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[23Sep2024 09:02:58.135] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[23Sep2024 09:02:58.136] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[23Sep2024 09:02:58.137] [Server thread/INFO] [xaero.common.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[23Sep2024 09:02:58.143] [Server thread/WARN] [ModernFix/]: Dedicated server took 46.132 seconds to load
+[23Sep2024 09:03:03.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[23Sep2024 09:03:03.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: say<--[HERE]
+[23Sep2024 09:03:08.047] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Vodq is 1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656
+[23Sep2024 09:03:10.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vodq[/[::1]:37546] logged in with entity id 82 at (-2979.633968409295, 66.0, -993.5383240395253)
+[23Sep2024 09:03:10.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq joined the game
+[23Sep2024 09:03:11.336] [Server thread/INFO] [Jade/]: Syncing config to Vodq (1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656)
+[23Sep2024 09:03:11.378] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656] seen for the first time as 'Player:'Vodq'['overworld']'
+[23Sep2024 09:03:12.159] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player CapDuck31 is 4bf6c7db-395c-4e8f-813e-ff509ebce871
+[23Sep2024 09:03:13.763] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[23Sep2024 09:03:15.234] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CapDuck31[/[::1]:37548] logged in with entity id 244 at (-2979.5915917206853, 66.0, -995.7478037848543)
+[23Sep2024 09:03:15.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 joined the game
+[23Sep2024 09:03:15.362] [Server thread/INFO] [Jade/]: Syncing config to CapDuck31 (4bf6c7db-395c-4e8f-813e-ff509ebce871)
+[23Sep2024 09:03:15.369] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] seen for the first time as 'Player:'CapDuck31'['overworld']'
+[23Sep2024 09:03:25.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> YIPPIE
+[23Sep2024 09:03:32.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> SHEESH :OOOOO
+[23Sep2024 09:03:33.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> weeeee
+[23Sep2024 09:03:34.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> awesomesauce!
+[23Sep2024 09:04:08.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wait u show me in ur hand
+[23Sep2024 09:04:21.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yooooo
+[23Sep2024 09:04:24.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> f5 exists dude
+[23Sep2024 09:04:31.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ik but still
+[23Sep2024 09:04:40.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ow wtf
+[23Sep2024 09:04:43.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> lol
+[23Sep2024 09:04:47.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> this is cool asf
+[23Sep2024 09:04:49.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> dude ge tup
+[23Sep2024 09:04:50.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh
+[23Sep2024 09:04:52.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nausea
+[23Sep2024 09:04:54.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> mb fr
+[23Sep2024 09:04:57.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what i had an effect on me hit again
+[23Sep2024 09:05:24.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> brass nauseA
+[23Sep2024 09:05:25.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> brass nausea
+[23Sep2024 09:05:29.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> HUH
+[23Sep2024 09:05:31.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it can go in water lol
+[23Sep2024 09:05:34.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> PRETTY COOL
+[23Sep2024 09:05:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you hit me with it
+[23Sep2024 09:05:45.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh
+[23Sep2024 09:05:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it makes you
+[23Sep2024 09:05:48.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:05:49.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> insane
+[23Sep2024 09:05:52.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yep
+[23Sep2024 09:05:54.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> that's cool
+[23Sep2024 09:05:57.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I thought it was normal nausea
+[23Sep2024 09:06:01.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> but this is SICK
+[23Sep2024 09:06:05.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> we need to show everyone our power
+[23Sep2024 09:06:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> real
+[23Sep2024 09:06:38.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what should i make next
+[23Sep2024 09:06:41.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you're really low
+[23Sep2024 09:06:51.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> what are you interested in?
+[23Sep2024 09:06:58.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> weapons?
+[23Sep2024 09:07:06.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> adventure?
+[23Sep2024 09:07:06.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i have no clue there so much but yeh probably weapon
+[23Sep2024 09:07:15.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> maybe a vehicle if we can
+[23Sep2024 09:07:21.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> of some sorts
+[23Sep2024 09:07:30.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> vehicle is kinda hard
+[23Sep2024 09:07:38.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> since we'd need to install another mod
+[23Sep2024 09:07:45.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> but it's fine
+[23Sep2024 09:07:52.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ight weapon or wait do u have that compass or did u do that already
+[23Sep2024 09:08:04.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> pretty sure paul moved us to forge JUST for clockwork and other addons
+[23Sep2024 09:08:07.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh
+[23Sep2024 09:08:14.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yea I do have the compass
+[23Sep2024 09:08:24.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wanna do that
+[23Sep2024 09:08:27.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alr
+[23Sep2024 09:08:53.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> pretty sure I had a diamond pickaxe
+[23Sep2024 09:08:58.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> can't remember
+[23Sep2024 09:09:05.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> but it's fine
+[23Sep2024 09:09:13.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i just made a new chest for some more random shit
+[23Sep2024 09:09:17.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alr
+[23Sep2024 09:09:25.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ight we set off?
+[23Sep2024 09:09:28.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> IGHT LETS GO
+[23Sep2024 09:09:33.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> where do we go
+[23Sep2024 09:09:36.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh
+[23Sep2024 09:09:37.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> this way
+[23Sep2024 09:09:44.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> dude are yous ure
+[23Sep2024 09:09:46.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i may need a boaot
+[23Sep2024 09:09:51.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> wait show me the compass
+[23Sep2024 09:10:03.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ah you're right
+[23Sep2024 09:10:25.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i may need estrogen
+[23Sep2024 09:10:26.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> get the boat fr
+[23Sep2024 09:10:28.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> real
+[23Sep2024 09:10:53.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> boat time?
+[23Sep2024 09:11:08.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nah boating is lame fr
+[23Sep2024 09:11:18.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> im in the boat lol
+[23Sep2024 09:11:21.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> xd
+[23Sep2024 09:11:48.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> cool tunnel fr
+[23Sep2024 09:11:52.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> real
+[23Sep2024 09:12:00.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> sont touch that red
+[23Sep2024 09:12:03.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> grass
+[23Sep2024 09:12:06.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> in wate
+[23Sep2024 09:12:07.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> why not fr
+[23Sep2024 09:12:13.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> now I REALLY want to
+[23Sep2024 09:12:16.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i found out hard way that it ouchy
+[23Sep2024 09:12:19.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ah
+[23Sep2024 09:13:04.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oooh ice
+[23Sep2024 09:13:16.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh we see seals get eaten by orca here
+[23Sep2024 09:13:20.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> crazy
+[23Sep2024 09:13:26.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> shipwreck
+[23Sep2024 09:13:34.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> cool
+[23Sep2024 09:13:54.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> any cool finding?
+[23Sep2024 09:14:02.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> lot of iron
+[23Sep2024 09:14:05.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> wowzers
+[23Sep2024 09:14:07.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> one brass
+[23Sep2024 09:14:10.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nice
+[23Sep2024 09:14:11.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> WAIT
+[23Sep2024 09:14:13.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> stop
+[23Sep2024 09:14:21.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nah I mean stop boating
+[23Sep2024 09:14:25.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I remember the loot being per person
+[23Sep2024 09:14:29.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> so there is some for me
+[23Sep2024 09:14:37.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq has made the advancement ['X' Marks the Spot]
+[23Sep2024 09:14:37.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i went wrong way anyways
+[23Sep2024 09:14:44.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> YEP
+[23Sep2024 09:14:51.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> treasure
+[23Sep2024 09:14:55.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I found a dog paint job
+[23Sep2024 09:14:59.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> some iron
+[23Sep2024 09:15:00.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> some emeralds
+[23Sep2024 09:15:06.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> classic loot
+[23Sep2024 09:15:07.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i have so many different ones of the paint jobs
+[23Sep2024 09:15:14.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> sheesh
+[23Sep2024 09:15:38.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I'm just littering don't mind me
+[23Sep2024 09:15:45.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> what
+[23Sep2024 09:16:02.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> its under the sea
+[23Sep2024 09:16:06.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh how
+[23Sep2024 09:16:10.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> is the compass spazzing out
+[23Sep2024 09:16:15.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yup
+[23Sep2024 09:16:34.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> im trying not to die tho
+[23Sep2024 09:16:38.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> there's a magma column
+[23Sep2024 09:16:54.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> OH
+[23Sep2024 09:16:56.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> CAVE
+[23Sep2024 09:17:00.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> huh
+[23Sep2024 09:17:02.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> why am I
+[23Sep2024 09:17:03.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> IT'S OIL
+[23Sep2024 09:17:03.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wtf
+[23Sep2024 09:17:05.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> GO BACK
+[23Sep2024 09:17:10.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> the asteroids wrok
+[23Sep2024 09:17:27.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> eat
+[23Sep2024 09:17:32.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> EAT
+[23Sep2024 09:17:34.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ONT HE MAGMA
+[23Sep2024 09:17:52.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> going in?
+[23Sep2024 09:17:53.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> its above us
+[23Sep2024 09:18:02.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> how are you sure it's above us
+[23Sep2024 09:18:29.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> we are below it
+[23Sep2024 09:18:38.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> come
+[23Sep2024 09:18:41.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> just swim
+[23Sep2024 09:18:50.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> below it huh
+[23Sep2024 09:19:09.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ight is above cuz lik the cave is just the asteroid making space
+[23Sep2024 09:19:20.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you sure?
+[23Sep2024 09:19:24.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> im pretty sure
+[23Sep2024 09:19:25.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I can see cave systems in my map
+[23Sep2024 09:19:28.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alr
+[23Sep2024 09:19:43.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> do we go back up
+[23Sep2024 09:19:48.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> its saying it through the wall to
+[23Sep2024 09:19:52.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> where
+[23Sep2024 09:19:57.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> tht way
+[23Sep2024 09:20:04.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> now it going crazy
+[23Sep2024 09:20:10.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> above us
+[23Sep2024 09:20:10.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we are either above or below
+[23Sep2024 09:20:31.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> come up
+[23Sep2024 09:20:46.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> that noise
+[23Sep2024 09:20:49.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I did NOT like the sound
+[23Sep2024 09:20:56.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> thats the asteroid
+[23Sep2024 09:21:31.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nah that's the compass I think
+[23Sep2024 09:21:36.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> rlly
+[23Sep2024 09:21:39.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> maybe
+[23Sep2024 09:21:40.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> can I have it
+[23Sep2024 09:22:13.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> let me check above
+[23Sep2024 09:22:37.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> uh dude
+[23Sep2024 09:22:40.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what
+[23Sep2024 09:22:43.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it's definitley below
+[23Sep2024 09:22:46.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> why
+[23Sep2024 09:22:58.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> up is just the ocean
+[23Sep2024 09:23:06.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> how tf did asteroid get underground
+[23Sep2024 09:23:13.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it's been here for years fr
+[23Sep2024 09:23:17.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh bet
+[23Sep2024 09:23:31.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> WHY IS IT SO DEEP
+[23Sep2024 09:23:43.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> thats what she said
+[23Sep2024 09:23:47.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> man I knew that was coming
+[23Sep2024 09:23:50.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> fr
+[23Sep2024 09:23:56.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nah but like tis' already deepslate
+[23Sep2024 09:24:01.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> tru
+[23Sep2024 09:24:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> surely not
+[23Sep2024 09:24:10.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> bedrock
+[23Sep2024 09:24:13.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> lol
+[23Sep2024 09:24:15.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> no way
+[23Sep2024 09:24:18.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> nah not yet
+[23Sep2024 09:24:24.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we are -20
+[23Sep2024 09:24:38.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> check the compass
+[23Sep2024 09:24:51.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> spazzing out?
+[23Sep2024 09:24:54.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> still goin crazy
+[23Sep2024 09:24:56.548] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/13197, l='ServerLevel[world]', x=0.00, y=0.70, z=0.00]
+[23Sep2024 09:25:02.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> dude no way
+[23Sep2024 09:25:06.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Spectator Mode]
+[23Sep2024 09:25:12.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh xave
+[23Sep2024 09:25:13.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Survival Mode]
+[23Sep2024 09:25:25.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> compass?
+[23Sep2024 09:25:27.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> diamond
+[23Sep2024 09:25:43.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> dude no way hold on
+[23Sep2024 09:25:43.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> it only go crazy
+[23Sep2024 09:25:44.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Spectator Mode]
+[23Sep2024 09:25:47.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> her
+[23Sep2024 09:25:50.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> here
+[23Sep2024 09:25:52.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> dude it's NOT here
+[23Sep2024 09:25:55.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> where i am standing
+[23Sep2024 09:25:58.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it's all just deepslate
+[23Sep2024 09:26:03.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I think it's up
+[23Sep2024 09:26:06.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:26:09.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> idk
+[23Sep2024 09:26:24.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> where r u
+[23Sep2024 09:26:31.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> shall we restart from the surface?
+[23Sep2024 09:26:35.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:26:40.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq has made the advancement [A Bone to Pick]
+[23Sep2024 09:26:41.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alr
+[23Sep2024 09:26:45.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> where tf did u go
+[23Sep2024 09:26:50.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> goign up
+[23Sep2024 09:27:06.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Survival Mode]
+[23Sep2024 09:27:10.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Teleported CapDuck31 to Vodq]
+[23Sep2024 09:27:16.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ight
+[23Sep2024 09:27:22.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we gotta restart our search fr
+[23Sep2024 09:27:32.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> forward from where i am facing
+[23Sep2024 09:28:16.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it has to be here fr
+[23Sep2024 09:28:19.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> is it spazzing out
+[23Sep2024 09:28:27.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wait ill be back in a sec my dad wanted to show mesomething
+[23Sep2024 09:28:30.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alr
+[23Sep2024 09:28:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> alg
+[23Sep2024 09:28:40.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Spectator Mode]
+[23Sep2024 09:29:01.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Survival Mode]
+[23Sep2024 09:29:09.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Teleported Vodq to CapDuck31]
+[23Sep2024 09:29:25.510] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element ae2:meteorite took 0 ms
+[23Sep2024 09:29:38.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Spectator Mode]
+[23Sep2024 09:30:14.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Survival Mode]
+[23Sep2024 09:31:00.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> how about we dig a bit from there
+[23Sep2024 09:31:06.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> where I am standing (when you come back)
+[23Sep2024 09:32:59.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> back
+[23Sep2024 09:33:09.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> wsg
+[23Sep2024 09:33:13.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> It might be here
+[23Sep2024 09:33:17.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ight
+[23Sep2024 09:33:19.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it shows me a cave under here
+[23Sep2024 09:33:24.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yea right there fr
+[23Sep2024 09:33:24.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ok
+[23Sep2024 09:33:35.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> well it is going craxy
+[23Sep2024 09:33:40.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oil
+[23Sep2024 09:33:43.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yo
+[23Sep2024 09:33:44.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> O>O
+[23Sep2024 09:33:50.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> come
+[23Sep2024 09:34:00.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yooo
+[23Sep2024 09:34:02.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we found it fr
+[23Sep2024 09:34:03.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wtf
+[23Sep2024 09:34:18.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we gotta mine it
+[23Sep2024 09:34:19.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> now waht
+[23Sep2024 09:34:24.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Gave 1 [Iron Pickaxe] to Vodq]
+[23Sep2024 09:34:31.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we have to find the core
+[23Sep2024 09:34:46.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> check the compass fr
+[23Sep2024 09:34:58.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> has to be here
+[23Sep2024 09:35:13.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> can u mine it??/
+[23Sep2024 09:35:21.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I can with iron but it takes a while
+[23Sep2024 09:35:30.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh want my diamond one
+[23Sep2024 09:35:34.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yuh
+[23Sep2024 09:35:39.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> u lead the way
+[23Sep2024 09:36:20.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> how big is it
+[23Sep2024 09:36:25.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> no idea
+[23Sep2024 09:36:28.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I think one block
+[23Sep2024 09:36:34.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> damn
+[23Sep2024 09:36:41.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> is it a loot crate?/
+[23Sep2024 09:36:48.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> think it's a meteor core
+[23Sep2024 09:36:52.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh damn
+[23Sep2024 09:37:04.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> where tf is it
+[23Sep2024 09:37:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> they have metoric netherite block in JEI
+[23Sep2024 09:38:11.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> xray??
+[23Sep2024 09:38:15.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i dont have it
+[23Sep2024 09:38:17.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> but
+[23Sep2024 09:38:18.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you can't xray sky stone
+[23Sep2024 09:38:24.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh damn rlly
+[23Sep2024 09:38:26.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> did you hear that
+[23Sep2024 09:38:32.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> that must be the core
+[23Sep2024 09:38:39.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> making the nois
+[23Sep2024 09:38:43.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> we r closr
+[23Sep2024 09:38:56.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it shows me this blow
+[23Sep2024 09:38:59.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> these 2
+[23Sep2024 09:39:23.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> eesh this is big
+[23Sep2024 09:39:28.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:39:31.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> fr
+[23Sep2024 09:40:15.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you mine fr
+[23Sep2024 09:40:22.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> have the compass in your offhand
+[23Sep2024 09:40:24.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> makes it easier
+[23Sep2024 09:40:38.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wait but it just spazes out
+[23Sep2024 09:40:42.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yea ik
+[23Sep2024 09:41:05.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Spectator Mode]
+[23Sep2024 09:41:14.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Set own game mode to Survival Mode]
+[23Sep2024 09:41:16.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh
+[23Sep2024 09:41:18.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> gimmie fr
+[23Sep2024 09:41:24.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I think I MIGHT know
+[23Sep2024 09:41:35.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we haven't check teh right side
+[23Sep2024 09:41:41.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> tru
+[23Sep2024 09:41:59.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> o.o
+[23Sep2024 09:42:01.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> look
+[23Sep2024 09:42:07.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> o.o
+[23Sep2024 09:42:12.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> certus?
+[23Sep2024 09:42:17.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> SHEIESH
+[23Sep2024 09:42:17.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh my
+[23Sep2024 09:42:22.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> beautifu;
+[23Sep2024 09:42:31.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> whats it do
+[23Sep2024 09:42:35.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> wanna mine it?
+[23Sep2024 09:42:45.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> idk will we wreck it??
+[23Sep2024 09:42:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> do it fr
+[23Sep2024 09:42:49.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what u do
+[23Sep2024 09:43:10.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> did you get all the inscriptions?
+[23Sep2024 09:43:13.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> did u get some of those
+[23Sep2024 09:43:28.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> oh buds :O
+[23Sep2024 09:43:34.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> can I haz the buds
+[23Sep2024 09:43:35.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what
+[23Sep2024 09:43:39.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the bud sfr
+[23Sep2024 09:43:41.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the buds fr
+[23Sep2024 09:43:49.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ight let's go back fr
+[23Sep2024 09:43:54.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> wait why
+[23Sep2024 09:43:59.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we found it
+[23Sep2024 09:44:03.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> do u have some inscribers
+[23Sep2024 09:44:09.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nope
+[23Sep2024 09:44:11.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we are gonna make those
+[23Sep2024 09:44:17.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> so i have all of em
+[23Sep2024 09:44:18.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Teleported Vodq to -2981.500000, 66.500000, -989.500000]
+[23Sep2024 09:44:18.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vodq moved too quickly! 594.7078099006312,58.5,528.9269116451753
+[23Sep2024 09:44:18.182] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vodq moved too quickly! 594.7078099006312,58.5,528.9269116451753
+[23Sep2024 09:44:22.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Teleported CapDuck31 to Vodq]
+[23Sep2024 09:44:26.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yes
+[23Sep2024 09:44:40.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> we gotta make a not so mysterious cube
+[23Sep2024 09:44:49.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I have a silicon press
+[23Sep2024 09:44:52.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yuh
+[23Sep2024 09:45:02.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> u dont have one inscriber
+[23Sep2024 09:45:11.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> uh no we don't have to make a not so mysterious cube
+[23Sep2024 09:45:33.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> huh
+[23Sep2024 09:45:48.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Gave 1 [Inscriber] to Vodq]
+[23Sep2024 09:46:07.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we have to make an inscriber
+[23Sep2024 09:46:19.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> NVM we don't
+[23Sep2024 09:46:22.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> we can use create :O
+[23Sep2024 09:46:24.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i have three of em
+[23Sep2024 09:46:35.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> but do u have the fourth
+[23Sep2024 09:46:44.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 has made the advancement [Unknown Technology]
+[23Sep2024 09:46:44.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yuh
+[23Sep2024 09:46:49.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> let's put em in a chest fr
+[23Sep2024 09:46:53.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh see the achievment
+[23Sep2024 09:47:01.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> this chest fr
+[23Sep2024 09:47:07.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> do u want the achievment
+[23Sep2024 09:47:11.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> fr
+[23Sep2024 09:47:11.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq has made the advancement [Unknown Technology]
+[23Sep2024 09:47:25.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ight we need to make stuff
+[23Sep2024 09:47:35.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> wanna leave this to another day?
+[23Sep2024 09:47:36.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ME CONTROLLEr
+[23Sep2024 09:47:40.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> ah yes...
+[23Sep2024 09:47:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the ME system
+[23Sep2024 09:47:54.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> profound storage technology
+[23Sep2024 09:47:58.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i mean i wanna do it now but like
+[23Sep2024 09:48:12.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> but yuh we just need to use the recipe sequence
+[23Sep2024 09:48:16.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> if u dont want to
+[23Sep2024 09:48:28.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> well I did make a whole house so I feel burnt out
+[23Sep2024 09:48:34.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you can do some progress if you want :O
+[23Sep2024 09:48:44.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> if you need anything tell me on discord fr
+[23Sep2024 09:48:56.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> and I do have some studying to do
+[23Sep2024 09:49:08.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you can mess around if you want
+[23Sep2024 09:49:12.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> also see that machine?
+[23Sep2024 09:49:15.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> mine
+[23Sep2024 09:49:18.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the estrogen one?
+[23Sep2024 09:49:30.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yea i might take it down soon since estrogen is mostly a joke
+[23Sep2024 09:49:32.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> huh
+[23Sep2024 09:49:38.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> so we could repurpose this
+[23Sep2024 09:49:45.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> if we wanna
+[23Sep2024 09:49:54.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ok so what u want me to do just like make the ME thingo
+[23Sep2024 09:50:00.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> well it's not that easy
+[23Sep2024 09:50:10.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ik it loks hard asf
+[23Sep2024 09:50:20.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> what does the not so mysterious cube do tho
+[23Sep2024 09:50:28.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you need a printed circuit and shiet
+[23Sep2024 09:50:36.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:50:39.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> I think the not so mysterious cube is just a joke
+[23Sep2024 09:50:47.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> a play on how you can't make your own mysterious cube
+[23Sep2024 09:50:48.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh idk but its cool tho
+[23Sep2024 09:50:53.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> well you know
+[23Sep2024 09:50:56.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> this mod is actually
+[23Sep2024 09:50:58.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> a port from the original
+[23Sep2024 09:51:01.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> from 1.12.2
+[23Sep2024 09:51:03.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> yeh
+[23Sep2024 09:51:05.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you used to have a sky stone chest
+[23Sep2024 09:51:18.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh
+[23Sep2024 09:51:25.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> that didn't always guarantee all of them
+[23Sep2024 09:51:42.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> but now with this version, they made it so there is a cube you can mine for all the inscriptions
+[23Sep2024 09:51:43.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh ok but u used to be able to get the mysterioud cube??
+[23Sep2024 09:51:54.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> nope there wasn't a cube before 1.20
+[23Sep2024 09:51:58.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> there was a sky stone chet
+[23Sep2024 09:52:00.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> chest*
+[23Sep2024 09:52:01.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh damn
+[23Sep2024 09:52:11.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Gave 1 [Sky Stone Chest] to Vodq]
+[23Sep2024 09:52:12.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> and what did the inscribers do
+[23Sep2024 09:52:14.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> this
+[23Sep2024 09:52:19.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> this was it
+[23Sep2024 09:52:23.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> except it was REALLY old
+[23Sep2024 09:52:29.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh
+[23Sep2024 09:52:35.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> and had less slots than a normal chest
+[23Sep2024 09:52:45.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> damn
+[23Sep2024 09:52:51.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the inscribers are for making circuits
+[23Sep2024 09:52:55.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> you make shit with them fr
+[23Sep2024 09:53:02.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh damn
+[23Sep2024 09:53:14.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the entire point of the mod is to make a storage system
+[23Sep2024 09:53:17.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> so should i just wait to do that and ill just make guns and shit
+[23Sep2024 09:53:18.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> that is entirely computational
+[23Sep2024 09:53:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> yea you don't have to do any progress on it
+[23Sep2024 09:53:40.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it's fine if you leave it for another day
+[23Sep2024 09:53:45.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> i dont know what computational means lol
+[23Sep2024 09:53:51.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> well basically
+[23Sep2024 09:53:56.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> the mod adds a storage system
+[23Sep2024 09:53:59.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> called the ME system
+[23Sep2024 09:54:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> that uses drives
+[23Sep2024 09:54:10.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> instead of traditional storage
+[23Sep2024 09:54:15.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> and can be accessed by terminals
+[23Sep2024 09:54:20.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> oh
+[23Sep2024 09:54:22.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ok
+[23Sep2024 09:54:22.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> it's in almost every modpack
+[23Sep2024 09:54:49.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> damn alright yeh i wont do anything tonight on it i might make a gun with the blueprint i found tho
+[23Sep2024 09:54:52.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> welp uh, I think I might hop off to do some studying
+[23Sep2024 09:55:00.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ight cya
+[23Sep2024 09:55:08.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Vodq> cya
+[23Sep2024 09:55:13.106] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vodq lost connection: Disconnected
+[23Sep2024 09:55:13.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq left the game
+[23Sep2024 09:59:07.760] [Server thread/ERROR] [Jade/]: Caught unhandled exception : [null] java.lang.NullPointerException: Cannot invoke "net.minecraft.core.Direction.ordinal()" because "side" is null
+[23Sep2024 09:59:07.760] [Server thread/ERROR] [Jade/]: See JadeErrorOutput.txt for more information
+[23Sep2024 09:59:07.766] [Server thread/WARN] [net.minecraftforge.common.util.LazyOptional/CATCHING]: Catching
+java.lang.NullPointerException: Supplier should not return null value
+	at net.minecraftforge.common.util.LazyOptional.getValue(LazyOptional.java:101) ~[forge-1.20.1-47.3.0-universal.jar%23374!/:?]
+	at net.minecraftforge.common.util.LazyOptional.orElse(LazyOptional.java:221) ~[forge-1.20.1-47.3.0-universal.jar%23374!/:?]
+	at snownee.jade.util.CommonProxy.wrapEnergyStorage(CommonProxy.java:279) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.getGroups(EnergyStorageProvider.java:117) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.putData(EnergyStorageProvider.java:78) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.appendServerData(EnergyStorageProvider.java:94) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.appendServerData(EnergyStorageProvider.java:34) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[23Sep2024 10:27:32.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 was burnt to a crisp whilst fighting Zombie
+[23Sep2024 10:27:33.897] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['overworld']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 10:39:57.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> omg
+[23Sep2024 10:40:06.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> is that paul blawgington
+[23Sep2024 10:40:39.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> vc?
+[23Sep2024 10:40:51.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] it was me :skull:
+[23Sep2024 10:40:55.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] I pranked ya
+[23Sep2024 10:40:58.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] mb
+[23Sep2024 10:40:58.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> nigga what
+[23Sep2024 10:41:04.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] my bad :P
+[23Sep2024 10:41:07.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> lol
+[23Sep2024 10:41:14.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> im lonely
+[23Sep2024 10:41:18.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> :(
+[23Sep2024 10:41:36.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] dang...
+[23Sep2024 11:03:29.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava
+[23Sep2024 11:03:31.197] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:04:57.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 fell from a high place
+[23Sep2024 11:04:58.257] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:05:20.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava
+[23Sep2024 11:05:21.797] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:07:27.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava
+[23Sep2024 11:07:29.047] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:07:55.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava
+[23Sep2024 11:07:56.955] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:08:52.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava to escape Crimson Mosquito
+[23Sep2024 11:08:53.595] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:09:44.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 tried to swim in lava
+[23Sep2024 11:09:45.697] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[4bf6c7db-395c-4e8f-813e-ff509ebce871] updated from 'Player:'CapDuck31'['the_nether']' to 'Player:'CapDuck31'['overworld']'
+[23Sep2024 11:11:05.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 has made the advancement [Enchanter]
+[23Sep2024 11:16:32.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] o.O
+[23Sep2024 11:16:37.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> ahhhhhhhhhh
+[23Sep2024 11:16:41.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> im losing my mind
+[23Sep2024 11:17:05.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <CapDuck31> silk touch is impossible to get from this
+[23Sep2024 11:19:21.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 has made the advancement [Fishy Business]
+[23Sep2024 11:20:36.201] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CapDuck31 lost connection: Disconnected
+[23Sep2024 11:20:36.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CapDuck31 left the game
+[23Sep2024 11:27:28.856] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Vodq is 1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656
+[23Sep2024 11:27:31.219] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vodq[/[::1]:45058] logged in with entity id 31434 at (-3035.5, 75.0, -945.5)
+[23Sep2024 11:27:31.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq joined the game
+[23Sep2024 11:27:31.564] [Server thread/INFO] [Jade/]: Syncing config to Vodq (1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656)
+[23Sep2024 11:27:31.581] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656] updated from 'Player:'Vodq'['overworld']' to 'Player:'Vodq'['overworld']'
+[23Sep2024 11:28:45.652] [Server thread/WARN] [net.minecraftforge.common.util.LazyOptional/CATCHING]: Catching
+java.lang.NullPointerException: Supplier should not return null value
+	at net.minecraftforge.common.util.LazyOptional.getValue(LazyOptional.java:101) ~[forge-1.20.1-47.3.0-universal.jar%23374!/:?]
+	at net.minecraftforge.common.util.LazyOptional.orElse(LazyOptional.java:221) ~[forge-1.20.1-47.3.0-universal.jar%23374!/:?]
+	at snownee.jade.util.CommonProxy.wrapEnergyStorage(CommonProxy.java:279) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.getGroups(EnergyStorageProvider.java:117) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.putData(EnergyStorageProvider.java:78) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.appendServerData(EnergyStorageProvider.java:94) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.addon.universal.EnergyStorageProvider.appendServerData(EnergyStorageProvider.java:34) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74) ~[Jade-1.20.1-forge-11.7.1.jar%23330!/:11.7.1]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[23Sep2024 11:32:10.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vodq: Gave 128 [Raw Beef] to Vodq]
+[23Sep2024 11:34:45.800] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vodq lost connection: Disconnected
+[23Sep2024 11:34:45.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vodq left the game

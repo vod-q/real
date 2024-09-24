@@ -1,0 +1,40 @@
+{
+	id: "22d3431d-ffd9-4a26-ae9c-74d33f29f314"
+	type: "party"
+	owner: "1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656"
+	ranks: {
+		fa390485-4723-41fe-a698-716f6ac8ed8e: "member"
+		d36eb100-144f-47e5-b24f-931f1db02de7: "member"
+		1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656: "owner"
+		4bf6c7db-395c-4e8f-813e-ff509ebce871: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "The Skibidi GANG"
+		"ftbteams:description": "We are....so sigma...."
+		"ftbteams:color": "#FFFD59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1726918773696L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Vodq\"}]}" }
+		{ from: "1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656", date: 1726918780777L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Blackslate123\"}]}" }
+		{ from: "1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656", date: 1726918780778L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"CapDuck31\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1726918786985L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Blackslate123\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1726918787941L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"CapDuck31\"}]}" }
+		{ from: "1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656", date: 1727004262489L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"liveroyreaction\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1727004264673L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"liveroyreaction\"}]}" }
+	]
+	extra: { }
+}

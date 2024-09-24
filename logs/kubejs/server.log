@@ -1,0 +1,14 @@
+[09:02:48] [INIT] KubeJS 2001.6.4-build.138; MC 2001 forge
+[09:02:48] [INIT] Loaded plugins:
+[09:02:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[09:02:48] [INIT] - fr.iglee42.createcasing.compat.kubejs.KubeJSCompatPlugin
+[09:02:48] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[09:02:48] [INIT] - com.oierbravo.create_mechanical_spawner.compat.kubejs.KubeJSCreateMechanicalSpawnerPlugin
+[09:02:48] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[09:02:48] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[09:02:48] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[09:02:48] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[09:02:48] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[09:02:48] [INFO] Loaded 1/1 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
+[09:02:48] [INFO] Scripts loaded
+[09:02:55] [INFO] Server resource reload complete!

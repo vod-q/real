@@ -1,0 +1,66 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1727090851316L
+	chunks: {
+		"minecraft:overworld": [
+			{ x: -188, z: -62, time: 1726989030572L, force_loaded: 1726989032020L }
+			{ x: -187, z: -60, time: 1727078697574L }
+			{ x: -192, z: -61, time: 1727078693779L }
+			{ x: -188, z: -63, time: 1726989029172L, force_loaded: 1726989032272L }
+			{ x: -186, z: -62, time: 1726989022370L, force_loaded: 1726989033072L }
+			{ x: -192, z: -59, time: 1727078693128L }
+			{ x: -188, z: -60, time: 1727078697152L }
+			{ x: -189, z: -59, time: 1727078691450L }
+			{ x: -191, z: -59, time: 1727078690274L }
+			{ x: -189, z: -62, time: 1727078694916L }
+			{ x: -191, z: -62, time: 1727078695435L }
+			{ x: -190, z: -61, time: 1727078694239L }
+			{ x: -186, z: -59, time: 1727078698168L }
+			{ x: -189, z: -63, time: 1727078696390L }
+			{ x: -187, z: -59, time: 1727078697768L }
+			{ x: -189, z: -60, time: 1727078691257L }
+			{ x: -190, z: -59, time: 1727078692134L }
+			{ x: -187, z: -61, time: 1726989018771L, force_loaded: 1726989033721L }
+			{ x: -192, z: -60, time: 1727078692902L }
+			{ x: -188, z: -59, time: 1727078697336L }
+			{ x: -191, z: -60, time: 1727078690035L }
+			{ x: -190, z: -62, time: 1727078695179L }
+			{ x: -186, z: -60, time: 1727078698050L }
+			{ x: -189, z: -61, time: 1727078694586L }
+			{ x: -188, z: -61, time: 1726989020932L, force_loaded: 1726989034070L }
+			{ x: -186, z: -63, time: 1726989022770L, force_loaded: 1726989032720L }
+			{ x: -187, z: -63, time: 1726989029620L, force_loaded: 1726989031121L }
+			{ x: -187, z: -62, time: 1726989030057L, force_loaded: 1726989031595L }
+			{ x: -190, z: -60, time: 1727078689801L }
+			{ x: -191, z: -63, time: 1727078695950L }
+			{ x: -192, z: -63, time: 1727078698866L }
+			{ x: -192, z: -62, time: 1727078699055L }
+			{ x: -186, z: -61, time: 1726989021989L, force_loaded: 1726989033421L }
+			{ x: -191, z: -61, time: 1727078693977L }
+			{ x: -190, z: -63, time: 1727078696176L }
+		]
+	}
+	member_data: {
+		d36eb100-144f-47e5-b24f-931f1db02de7: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		1bbc5d61-fee9-44de-b6d3-1b9fa3ea4656: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		4bf6c7db-395c-4e8f-813e-ff509ebce871: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		fa390485-4723-41fe-a698-716f6ac8ed8e: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}
